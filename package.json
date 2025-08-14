@@ -2,7 +2,7 @@
   "name": "company-portfolio",
   "version": "1.0.0",
   "private": true,
-  "homepage": ".",
+  "homepage": "https://abhijit1018.github.io/Company-portfolio",
   "dependencies": {
     "@react-three/drei": "^9.88.0",
     "@react-three/fiber": "^8.15.0",

@@ -154,7 +154,7 @@ const Hero: React.FC = () => {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.6, duration: 0.8 }}
-            className="text-xl md:text-2xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto leading-relaxed"
+            className="text-xl md:text-2xl text-gray-600 dark:text-gray-950 max-w-3xl mx-auto leading-relaxed"
           >
             Transform your ideas into stunning websites, powerful applications, and unforgettable digital experiences. 
             We specialize in modern web development, portfolio creation, and digital solutions that drive results.

@@ -5,10 +5,10 @@ import Hero from './components/Hero';
 import Services from './components/Services';
 import About from './components/About';
 import Portfolio from './components/Portfolio';
-// import Testimonials from './components/Testimonials';
+import Testimonials from './components/Testimonials';
 import Blog from './components/Blog';
 import PricingCalculator from './components/PricingCalculator';
-// import Timeline from './components/Timeline';
+import Timeline from './components/Timeline';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import LiveChat from './components/LiveChat';
@@ -52,10 +52,10 @@ function App() {
           <Services />
           <About />
           <Portfolio />
-{/*           <Testimonials /> */}
+          <Testimonials /> 
           <Blog />
           <PricingCalculator />
-{/*           <Timeline /> */}
+           <Timeline />
           <Contact />
         </main>
         <Footer />

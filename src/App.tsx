@@ -52,11 +52,11 @@ function App() {
           <Services />
           <About />
           <Portfolio />
-{/*           <Testimonials />
-          <Blog /> */}
+{/*           <Testimonials /> */}
+          <Blog />
           <PricingCalculator />
-{/*           <Timeline />
-          <Contact /> */}
+{/*           <Timeline /> */}
+          <Contact />
         </main>
         <Footer />
         <LiveChat />

@@ -208,6 +208,37 @@ If you encounter issues:
 2. Review the [GitHub Actions logs](https://github.com/[your-username]/[your-repo-name]/actions)
 3. Ensure all dependencies are up to date
 
+## 🔧 Common Deployment Issues
+
+### GitHub Actions Deploy Job Failing
+
+If you see the build step succeeding but the deploy step failing in GitHub Actions:
+
+1. **Check GitHub Pages Source**: Go to your repository Settings → Pages and ensure:
+   - Source is set to "GitHub Actions" (not "Deploy from a branch")
+   - The workflow has proper permissions
+
+2. **Pull Request Deployments**: The deploy job only runs on pushes to main branch, not on pull requests. This is by design to prevent unauthorized deployments.
+
+3. **Permissions**: Ensure your repository has the following permissions enabled:
+   - Settings → Actions → General → Workflow permissions: "Read and write permissions"
+   - The workflow file includes proper permissions for pages deployment
+
+### Build Failing Locally
+
+If `npm run build` fails:
+```bash
+# Try using npx instead
+npx react-scripts build
+
+# Check for missing dependencies
+npm install
+
+# Clear cache and reinstall
+rm -rf node_modules package-lock.json
+npm install
+```
+
 ---
 
 **Happy Deploying! 🎉**

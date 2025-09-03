@@ -32,8 +32,8 @@ Use this checklist to ensure your company portfolio is properly deployed to GitH
 ## 🌐 GitHub Pages Setup
 
 - [ ] **GitHub Pages enabled** in repository settings
-- [ ] **Source set** to "Deploy from a branch"
-- [ ] **Branch selected** as "gh-pages" and "/ (root)"
+- [ ] **Source set** to "GitHub Actions" (not "Deploy from a branch")
+- [ ] **Workflow permissions** enabled for pages deployment
 - [ ] **Custom domain** configured (optional)
 
 ## 🧪 Post-Deployment Testing
@@ -90,9 +90,12 @@ npm run deploy
 ## 🆘 Troubleshooting
 
 - **Build fails**: Check for TypeScript errors, run `npm run build` locally
+- **react-scripts not found**: Use `npx react-scripts build` instead of `npm run build`
 - **Site not loading**: Verify GitHub Pages is enabled and homepage URL is correct
 - **Styling issues**: Ensure Tailwind CSS is building correctly
 - **GitHub Actions fail**: Check workflow file and Node.js version compatibility
+- **Deploy job fails on PR**: Deploy only runs on push to main branch, not pull requests
+- **Pages not configured**: Ensure GitHub Pages source is set to "GitHub Actions" not "Deploy from a branch"
 
 ---
 

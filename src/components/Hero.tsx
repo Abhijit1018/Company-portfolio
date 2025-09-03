@@ -187,8 +187,8 @@ const Hero: React.FC = () => {
             className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-16 max-w-4xl mx-auto"
           >
             {[
-              { number: "500+", label: "Projects Completed" },
-              { number: "50+", label: "Happy Clients" },
+              { number: "10+", label: "Projects Completed" },
+              { number: "5+", label: "Happy Clients" },
               { number: "99%", label: "Client Satisfaction" }
             ].map((stat, index) => (
               <motion.div

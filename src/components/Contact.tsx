@@ -41,20 +41,20 @@ const Contact: React.FC = () => {
     {
       icon: Mail,
       title: "Email",
-      info: "hello@techvision.com",
+      info: "abhijeetrathore104@gmail.com",
       description: "Send us an email anytime"
     },
     {
       icon: Phone,
       title: "Phone",
-      info: "+1 (555) 123-4567",
+      info: "+91 93 7648 1607",
       description: "Mon-Fri from 8am to 6pm"
     },
     {
       icon: MapPin,
       title: "Office",
-      info: "123 Tech Street, Digital City",
-      description: "Visit our office"
+      info: "Only Online Right Now",
+      description: "Visit our Website"
     }
   ];
 
@@ -264,18 +264,18 @@ const Contact: React.FC = () => {
               </h4>
               <div className="space-y-3">
                 <a
-                  href="mailto:hello@techvision.com"
+                  href="mailto:abhijeetrathore104@gmai.com"
                   className="flex items-center space-x-3 text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-200"
                 >
                   <Mail className="w-5 h-5" />
-                  <span>hello@techvision.com</span>
+                  <span>abhijeetrathore104@gmail.com</span>
                 </a>
                 <a
-                  href="tel:+15551234567"
+                  href="tel:+919376481607"
                   className="flex items-center space-x-3 text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-200"
                 >
                   <Phone className="w-5 h-5" />
-                  <span>+1 (555) 123-4567</span>
+                  <span>+91 93 7648 1607</span>
                 </a>
               </div>
             </motion.div>

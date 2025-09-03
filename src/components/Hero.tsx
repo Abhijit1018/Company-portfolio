@@ -125,7 +125,7 @@ const Hero: React.FC = () => {
             className="inline-flex items-center px-4 py-2 rounded-full bg-blue-100 dark:bg-blue-900/30 text-blue-800 dark:text-blue-200 text-sm font-medium"
           >
             <span className="w-2 h-2 bg-blue-500 rounded-full mr-2 animate-pulse"></span>
-            Award-winning Web Development Agency
+            Your Dream Our Build
           </motion.div>
 
           {/* Main Heading */}
@@ -147,7 +147,7 @@ const Hero: React.FC = () => {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.6, duration: 0.8 }}
-            className="text-xl md:text-2xl text-gray-600 dark:text-gray-950 max-w-3xl mx-auto leading-relaxed"
+            className="text-xl md:text-2xl text-gray-950 dark:text-gray-500 max-w-3xl mx-auto leading-relaxed"
           >
             Transform your ideas into stunning websites, powerful applications, and unforgettable digital experiences. 
             We specialize in modern web development, portfolio creation, and digital solutions that drive results.

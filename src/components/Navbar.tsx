@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useTheme } from '../context/ThemeContext';
-import { Menu, X, Sun, Moon, Code, Smartphone, Palette, Database, Globe, Zap } from 'lucide-react';
+import { Menu, X, Sun, Moon, Code } from 'lucide-react';
 
 const Navbar: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);

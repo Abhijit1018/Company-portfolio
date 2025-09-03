@@ -10,8 +10,7 @@ import {
   Zap,
   Shield,
   BarChart3,
-  Users,
-  Settings
+  Users
 } from 'lucide-react';
 
 const services = [

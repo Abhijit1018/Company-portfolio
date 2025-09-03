@@ -1,10 +1,8 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { useTheme } from '../context/ThemeContext';
 import { Code, Github, Twitter, Linkedin, Instagram, Mail } from 'lucide-react';
 
 const Footer: React.FC = () => {
-  const { isDarkMode } = useTheme();
 
   const footerLinks = {
     services: [
@@ -138,15 +136,15 @@ const Footer: React.FC = () => {
               © 2024 TechVision. All rights reserved.
             </p>
             <div className="flex space-x-6 mt-4 md:mt-0">
-              <a href="#" className="text-gray-400 hover:text-white text-sm transition-colors duration-300">
+              <button className="text-gray-400 hover:text-white text-sm transition-colors duration-300">
                 Privacy Policy
-              </a>
-              <a href="#" className="text-gray-400 hover:text-white text-sm transition-colors duration-300">
+              </button>
+              <button className="text-gray-400 hover:text-white text-sm transition-colors duration-300">
                 Terms of Service
-              </a>
-              <a href="#" className="text-gray-400 hover:text-white text-sm transition-colors duration-300">
+              </button>
+              <button className="text-gray-400 hover:text-white text-sm transition-colors duration-300">
                 Cookie Policy
-              </a>
+              </button>
             </div>
           </div>
         </motion.div>
